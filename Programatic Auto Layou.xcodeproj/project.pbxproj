@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAE760222175AEF00155EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE760122175AEF00155EDA /* AppDelegate.swift */; };
+		EFAE760422175AEF00155EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE760322175AEF00155EDA /* ViewController.swift */; };
+		EFAE760722175AEF00155EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE760522175AEF00155EDA /* Main.storyboard */; };
+		EFAE760922175AF100155EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAE760822175AF100155EDA /* Assets.xcassets */; };
+		EFAE760C22175AF100155EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAE760A22175AF100155EDA /* LaunchScreen.storyboard */; };
+		EFAE761722175AF100155EDA /* Programatic_Auto_LayouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE761622175AF100155EDA /* Programatic_Auto_LayouTests.swift */; };
+		EFAE762222175AF100155EDA /* Programatic_Auto_LayouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE762122175AF100155EDA /* Programatic_Auto_LayouUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAE761322175AF100155EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAE75F622175AEF00155EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAE75FD22175AEF00155EDA;
+			remoteInfo = "Programatic Auto Layou";
+		};
+		EFAE761E22175AF100155EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAE75F622175AEF00155EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAE75FD22175AEF00155EDA;
+			remoteInfo = "Programatic Auto Layou";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAE75FE22175AEF00155EDA /* Programatic Auto Layou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programatic Auto Layou.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE760122175AEF00155EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAE760322175AEF00155EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAE760622175AEF00155EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAE760822175AF100155EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAE760B22175AF100155EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAE760D22175AF100155EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAE761222175AF100155EDA /* Programatic Auto LayouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programatic Auto LayouTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE761622175AF100155EDA /* Programatic_Auto_LayouTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programatic_Auto_LayouTests.swift; sourceTree = "<group>"; };
+		EFAE761822175AF100155EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAE761D22175AF100155EDA /* Programatic Auto LayouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programatic Auto LayouUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAE762122175AF100155EDA /* Programatic_Auto_LayouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programatic_Auto_LayouUITests.swift; sourceTree = "<group>"; };
+		EFAE762322175AF100155EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAE75FB22175AEF00155EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE760F22175AF100155EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE761A22175AF100155EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAE75F522175AEF00155EDA = {
+			isa = PBXGroup;
+			children = (
+				EFAE760022175AEF00155EDA /* Programatic Auto Layou */,
+				EFAE761522175AF100155EDA /* Programatic Auto LayouTests */,
+				EFAE762022175AF100155EDA /* Programatic Auto LayouUITests */,
+				EFAE75FF22175AEF00155EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAE75FF22175AEF00155EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE75FE22175AEF00155EDA /* Programatic Auto Layou.app */,
+				EFAE761222175AF100155EDA /* Programatic Auto LayouTests.xctest */,
+				EFAE761D22175AF100155EDA /* Programatic Auto LayouUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAE760022175AEF00155EDA /* Programatic Auto Layou */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE760122175AEF00155EDA /* AppDelegate.swift */,
+				EFAE760322175AEF00155EDA /* ViewController.swift */,
+				EFAE760522175AEF00155EDA /* Main.storyboard */,
+				EFAE760822175AF100155EDA /* Assets.xcassets */,
+				EFAE760A22175AF100155EDA /* LaunchScreen.storyboard */,
+				EFAE760D22175AF100155EDA /* Info.plist */,
+			);
+			path = "Programatic Auto Layou";
+			sourceTree = "<group>";
+		};
+		EFAE761522175AF100155EDA /* Programatic Auto LayouTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE761622175AF100155EDA /* Programatic_Auto_LayouTests.swift */,
+				EFAE761822175AF100155EDA /* Info.plist */,
+			);
+			path = "Programatic Auto LayouTests";
+			sourceTree = "<group>";
+		};
+		EFAE762022175AF100155EDA /* Programatic Auto LayouUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAE762122175AF100155EDA /* Programatic_Auto_LayouUITests.swift */,
+				EFAE762322175AF100155EDA /* Info.plist */,
+			);
+			path = "Programatic Auto LayouUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAE75FD22175AEF00155EDA /* Programatic Auto Layou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE762622175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto Layou" */;
+			buildPhases = (
+				EFAE75FA22175AEF00155EDA /* Sources */,
+				EFAE75FB22175AEF00155EDA /* Frameworks */,
+				EFAE75FC22175AEF00155EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programatic Auto Layou";
+			productName = "Programatic Auto Layou";
+			productReference = EFAE75FE22175AEF00155EDA /* Programatic Auto Layou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAE761122175AF100155EDA /* Programatic Auto LayouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE762922175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto LayouTests" */;
+			buildPhases = (
+				EFAE760E22175AF100155EDA /* Sources */,
+				EFAE760F22175AF100155EDA /* Frameworks */,
+				EFAE761022175AF100155EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAE761422175AF100155EDA /* PBXTargetDependency */,
+			);
+			name = "Programatic Auto LayouTests";
+			productName = "Programatic Auto LayouTests";
+			productReference = EFAE761222175AF100155EDA /* Programatic Auto LayouTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAE761C22175AF100155EDA /* Programatic Auto LayouUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAE762C22175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto LayouUITests" */;
+			buildPhases = (
+				EFAE761922175AF100155EDA /* Sources */,
+				EFAE761A22175AF100155EDA /* Frameworks */,
+				EFAE761B22175AF100155EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAE761F22175AF100155EDA /* PBXTargetDependency */,
+			);
+			name = "Programatic Auto LayouUITests";
+			productName = "Programatic Auto LayouUITests";
+			productReference = EFAE761D22175AF100155EDA /* Programatic Auto LayouUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAE75F622175AEF00155EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Robert Graman";
+				TargetAttributes = {
+					EFAE75FD22175AEF00155EDA = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EFAE761122175AF100155EDA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFAE75FD22175AEF00155EDA;
+					};
+					EFAE761C22175AF100155EDA = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EFAE75FD22175AEF00155EDA;
+					};
+				};
+			};
+			buildConfigurationList = EFAE75F922175AEF00155EDA /* Build configuration list for PBXProject "Programatic Auto Layou" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAE75F522175AEF00155EDA;
+			productRefGroup = EFAE75FF22175AEF00155EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAE75FD22175AEF00155EDA /* Programatic Auto Layou */,
+				EFAE761122175AF100155EDA /* Programatic Auto LayouTests */,
+				EFAE761C22175AF100155EDA /* Programatic Auto LayouUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAE75FC22175AEF00155EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE760C22175AF100155EDA /* LaunchScreen.storyboard in Resources */,
+				EFAE760922175AF100155EDA /* Assets.xcassets in Resources */,
+				EFAE760722175AEF00155EDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE761022175AF100155EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE761B22175AF100155EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAE75FA22175AEF00155EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE760422175AEF00155EDA /* ViewController.swift in Sources */,
+				EFAE760222175AEF00155EDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE760E22175AF100155EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE761722175AF100155EDA /* Programatic_Auto_LayouTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAE761922175AF100155EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAE762222175AF100155EDA /* Programatic_Auto_LayouUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAE761422175AF100155EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAE75FD22175AEF00155EDA /* Programatic Auto Layou */;
+			targetProxy = EFAE761322175AF100155EDA /* PBXContainerItemProxy */;
+		};
+		EFAE761F22175AF100155EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAE75FD22175AEF00155EDA /* Programatic Auto Layou */;
+			targetProxy = EFAE761E22175AF100155EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAE760522175AEF00155EDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE760622175AEF00155EDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAE760A22175AF100155EDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAE760B22175AF100155EDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAE762422175AF100155EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAE762522175AF100155EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAE762722175AF100155EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto Layou/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-Layou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAE762822175AF100155EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto Layou/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-Layou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFAE762A22175AF100155EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto LayouTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-LayouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programatic Auto Layou.app/Programatic Auto Layou";
+			};
+			name = Debug;
+		};
+		EFAE762B22175AF100155EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto LayouTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-LayouTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programatic Auto Layou.app/Programatic Auto Layou";
+			};
+			name = Release;
+		};
+		EFAE762D22175AF100155EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto LayouUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-LayouUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programatic Auto Layou";
+			};
+			name = Debug;
+		};
+		EFAE762E22175AF100155EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B76QEBSE86;
+				INFOPLIST_FILE = "Programatic Auto LayouUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mizzouthon.Programatic-Auto-LayouUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programatic Auto Layou";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAE75F922175AEF00155EDA /* Build configuration list for PBXProject "Programatic Auto Layou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE762422175AF100155EDA /* Debug */,
+				EFAE762522175AF100155EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE762622175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto Layou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE762722175AF100155EDA /* Debug */,
+				EFAE762822175AF100155EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE762922175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto LayouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE762A22175AF100155EDA /* Debug */,
+				EFAE762B22175AF100155EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAE762C22175AF100155EDA /* Build configuration list for PBXNativeTarget "Programatic Auto LayouUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAE762D22175AF100155EDA /* Debug */,
+				EFAE762E22175AF100155EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAE75F622175AEF00155EDA /* Project object */;
+}
